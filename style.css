@@ -1,0 +1,63 @@
+:root{
+  --darkest: #444455;
+  --dark: #444444;
+}
+
+body{
+  align-content: center;
+  display: flex;
+  justify-content: center;
+
+  color: black;
+
+  background-color: var(--dark);
+}
+
+.app{
+  border: 1px solid black;
+  border-radius: 7px;
+
+  text-align: center;
+
+  position: relative;
+  top: 200px;
+
+  height: 17rem;
+  width: 15rem;
+
+  background-color: var(--darkest);
+}
+
+.gen-btn{
+  position: relative;
+  top: 9.52rem;
+
+  border: none;
+  border-radius: 7px;
+
+  width: 7rem;
+  height: 2.25rem;
+
+  color: black;
+  background-color: #1aa7ec;
+}
+
+.pass-txt{
+  position: relative;
+  top: 5px;
+}
+
+.gen-pass-txt{
+  position: relative;
+  top: 55px;
+}
+
+.pass-gen{
+  /*border: 1px solid white;*/
+
+  position: relative;
+  top: 4.063rem;
+
+  width: 15rem;
+  height: 1.25rem;
+}
